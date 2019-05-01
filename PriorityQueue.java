@@ -1,4 +1,9 @@
-
+/* Name: Josh Woolbright
+ * Description: This is a linked queue designed to prioritize
+ *              objects based on a certain parameter. In the Airport 
+ *              file this is used for planes that are landing and 
+ *              prioritized based on amount of fuel.
+ */
 import java.util.EmptyStackException;
 
 public class PriorityQueue<T extends Comparable<T> & Updatable<T>>
