@@ -1,6 +1,6 @@
 /*        Name: Josh Woolbright
  * Description: This code allows the user to create an Airport object that keeps track of planes that
- *              are taking off and landing from a runway. It includes a method, which allows the user
+ *              are taking off and landing from a runway. It includes a method which allows the user
  *              to print a report of some interesting statistics.
  */
 import java.util.Random;
