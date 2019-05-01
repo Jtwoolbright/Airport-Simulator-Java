@@ -1,6 +1,6 @@
-
-import java.util.EmptyStackException;
-
+/*        Name: Josh Woolbright
+ * Description: This is a simple queue made from a linked list.
+ */
 public class LinkedQueue<T> implements QueueInterface<T>
 {
     private Node firstNode;
