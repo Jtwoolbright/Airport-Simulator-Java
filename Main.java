@@ -1,4 +1,7 @@
-
+/*        Name: Josh Woolbright
+ * Description: This code simulates the activity on a runway for 
+ *              1000 units of time and prints some interesting statistics.
+ */
 public class Main 
 {
 	public static void main(String[] args) 
