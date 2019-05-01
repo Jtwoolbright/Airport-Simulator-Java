@@ -1,5 +1,7 @@
 /*        Name: Josh Woolbright
  * Description: This is a simple queue made from a linked list.
+ *              The queue is used for airplanes that are taking off
+ *              in the Airport file.
  */
 public class LinkedQueue<T> implements QueueInterface<T>
 {
