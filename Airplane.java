@@ -1,4 +1,9 @@
-
+/*        Name: Josh Woolbright
+ * Description: This code creates an Airplane object that is used in the Airport
+ *              class. It allows you to differentiate between an airplane that is
+ *              taking off and an airplane that is landing. It also allows you to compare
+ *              planes based on fuel amounts.
+ */           
 import java.util.Random;
 
 public class Airplane implements Comparable<Airplane>, Updatable<Airplane>
