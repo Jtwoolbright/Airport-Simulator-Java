@@ -29,7 +29,7 @@ public class LinkedQueue<T> implements QueueInterface<T>
     public T dequeue()
     {
         if (isEmpty())
-            throw new EmptyStackException();
+            throw new EmptyQueueException("Queue is Empty");
         T data = firstNode.data;
         firstNode = firstNode.next;
         return data;
